@@ -1,0 +1,47 @@
+{
+    "coin": "DP.json",
+    "address": "RHznkY6Q1rsQKpwPDpbFpTWnDKDSZhwmoB",
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 28388,
+            "user": "MyUser",
+            "password": "MyPass"
+        }
+    ],
+    "p2p": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 28387,
+        "disableTransactions": false
+    },
+    "ports": {
+        "3883": {
+            "diff": 15
+        },
+        "3880": {
+            "diff": 5
+        },
+        "3881": {
+            "diff": 0.5
+        }
+    },
+    "website": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": "8088"
+    },
+    "blockRefreshInterval": 0,
+    "jobRebroadcastTimeout": 55,
+    "connectionTimeout": 6000000,
+    "tcpProxyProtocol": false,
+    "clustering": {
+        "enabled": false,
+        "forks": 3
+    },
+    "cliPort": 17117,
+    "blockNotifyListener": {
+        "enabled": false,
+        "port": 17118
+    }
+}
